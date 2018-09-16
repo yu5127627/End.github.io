@@ -413,7 +413,7 @@ html body {
 
 /*菜单*/
 .menu {
-    width: 100%;
+    width: 1263px;
     height: auto;
 
 }
@@ -421,19 +421,20 @@ html body {
 /*采集 菜单*/
 /*采集菜单子导航*/
 .menu-array {
-    width: 100%;
+    width: 1263px;
     height: auto;
     position: relative;
-}
-
-.menu-subnav {
-    width: 100%;
-    height: 135px;
     background-color: #dddddd;
 }
 
-.menu-subnav ul {
+.menu-subnav {
     width: 80%;
+    height: 135px;
+    
+}
+
+.menu-subnav ul {
+    width: 100%;
     margin: 0 auto;
 }
 
