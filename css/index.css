@@ -368,7 +368,7 @@ html body {
 
 /*主体部分*/
 .main {
-    width: 100%;
+    width: 1263px;
     height: auto;
 }
 
@@ -430,7 +430,7 @@ html body {
 .menu-subnav {
     width: 80%;
     height: 135px;
-    
+    margin: 0 auto;
 }
 
 .menu-subnav ul {
