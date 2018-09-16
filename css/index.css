@@ -1,0 +1,765 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding-top: 48px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+/*头部*/
+.header {
+    width: 100%;
+    height: 48px;
+    margin: 0 auto;
+    background-color: white;
+
+    /*基于页面定位*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+}
+
+.top-nav {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*头部左侧*/
+.nav-left {
+    float: left;
+    width: 405px;
+    height: 28px;
+    margin-top: 10px;
+
+}
+
+.nav-left li {
+    float: left;
+    margin-right: 20px;
+
+}
+
+.nav-left li a {
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left li a:hover {
+    color: red;
+}
+
+.nav-left li:nth-child(7) a {
+    font-size: 28px;
+    line-height: 2px;
+}
+
+.nav-left .new {
+    width: 24px;
+    height: 12px;
+    display: inline-block;
+    background-color: orange;
+    font-size: 10px;
+    color: white;
+    line-height: 14px;
+}
+
+.nav-left .logo-pic a {
+    width: 80px;
+    height: 28px;
+    display: inline-block;
+    background: url("../images/huaban_logo.png") no-repeat;
+    background-size: cover;
+}
+
+/*头部中间*/
+.nav-center {
+    float: left;
+    height: 48px;
+    /*background-color: red;*/
+}
+
+.nav-center input {
+    width: 400px;
+    height: 28px;
+    padding: 10px;
+    /*以盒子为基准*/
+    box-sizing: border-box;
+    /*高亮效果取消*/
+    outline: none;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+/*头部右侧*/
+.nav-right {
+    float: left;
+    height: 48px;
+}
+
+.nav-right button {
+    width: 50px;
+    height: 30px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.nav-right .nav-right-regist {
+    background-color: red;
+    color: white;
+    border: 1px solid #c90000;
+
+    border-radius: 1px;
+}
+
+.nav-right .nav-right-login {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+
+}
+
+/*中部广告*/
+.slider-banner {
+    width: 100%;
+    height: 60px;
+}
+
+.slider-banner ul {
+    width: 1263px;
+    height: 60px;
+
+    position: relative;
+}
+
+.slider-banner ul li {
+    width: 1263px;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider-banner ul li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.slider-banner ul li:nth-child(1) a {
+    width: 100%;
+    height: 60px;
+    background: url("../images/top_banner01.jpg") no-repeat center center;
+}
+
+.slider-banner ul li:nth-child(2) a {
+    width: 100%;
+    height: 60px;
+    background: url("../images/top_banner02.jpg") no-repeat center center;
+}
+
+.slider-banner ul li:nth-child(3) a {
+    width: 100%;
+    height: 60px;
+    background: url("../images/top_banner03.jpg") no-repeat center center;
+}
+
+.slider-banner ul li:nth-child(4) a {
+    width: 100%;
+    height: 60px;
+    background: url("../images/top_banner04.jpg") no-repeat center center;
+}
+
+.slider-banner ul li:nth-child(5) a {
+    width: 100%;
+    height: 60px;
+    background: url("../images/top_banner05.jpg") no-repeat center center;
+}
+
+.slider-banner ul li:nth-child(6) a {
+    width: 100%;
+    height: 60px;
+    background: url("../images/top_banner06.jpg") no-repeat center center;
+}
+
+.slider-banner ul li:nth-child(7) a {
+    width: 100%;
+    height: 60px;
+    background: url("../images/top_banner07.jpg") no-repeat center center;
+}
+
+/*中部第三方登录*/
+.quick-login {
+    width: 1263px;
+    height: 100px;
+    background: url("../images/login_header_blurbg.jpg") no-repeat center center;
+}
+
+.quick-login-nav {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.quick-login-title {
+    float: left;
+    color: white;
+}
+
+.quick-login-title p:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+
+.quick-login-login {
+    float: right;
+    color: white;
+}
+
+.quick-login-login ul {
+    margin-left: 34px;
+}
+
+.quick-login-login ul li {
+    float: left;
+    margin: 15px 5px 5px 5px;
+}
+
+.quick-login-login ul li a {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.quick-login-login ul li:nth-child(1) a {
+    width: 45px;
+    height: 45px;
+    background: url("../images/icon.jpg") -3px -4px;
+
+}
+
+.quick-login-login ul li:nth-child(2) a {
+    width: 45px;
+    height: 45px;
+    background: url("../images/icon.jpg") 56px -4px;
+}
+
+.quick-login-login ul li:nth-child(3) a {
+    width: 45px;
+    height: 45px;
+    background: url("../images/icon.jpg") 136px -4px;
+}
+
+.quick-login-login ul li:nth-child(4) a {
+    width: 45px;
+    height: 45px;
+    background: url("../images/icon.jpg") 216px -4px;
+}
+
+.quick-login-login span {
+    margin-left: 26px;
+}
+
+/*吸顶效果*/
+.top-login {
+    width: 100%;
+    height: 64px;
+    background-color: rgba(0, 0, 0, .4);
+
+    position: fixed;
+    left: 0;
+    top: 48px;
+
+    display: none;
+    z-index: 98;
+}
+
+.top-login-nav {
+    width: 80%;
+    height: 64px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.top-login-title {
+    float: left;
+    margin-right: 270px;
+}
+
+.top-login-title p:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.top-login-title p:last-child {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.top-login-nav span {
+    float: left;
+    margin: 20px 0;
+}
+
+.top-login-login ul {
+    float: right;
+}
+
+.top-login-login ul li {
+    float: left;
+    margin: 5px;
+}
+
+.top-login-login ul li a {
+    display: inline-block;
+}
+
+.top-login-login ul li:nth-child(1) a {
+    width: 50px;
+    height: 50px;
+    background: url("../images/icon2.png") 0 0;
+    background-size: 200px 50px;
+}
+
+.top-login-login ul li:nth-child(2) a {
+    width: 50px;
+    height: 50px;
+    background: url("../images/icon2.png") 150px 0;
+    background-size: 200px 50px;
+}
+
+.top-login-login ul li:nth-child(3) a {
+    width: 50px;
+    height: 50px;
+    background: url("../images/icon2.png") 300px 0;
+    background-size: 200px 50px;
+}
+
+.top-login-login ul li:nth-child(4) a {
+    width: 50px;
+    height: 50px;
+    background: url("../images/icon2.png") 450px 0;
+    background-size: 200px 50px;
+}
+
+/*主体部分*/
+.main {
+    width: 100%;
+    height: auto;
+}
+
+/*标题 tab导航栏*/
+.main .nav {
+    width: 1263px;
+    height: 150px;
+}
+
+.nav > span {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 24px;
+    display: block;
+    color: rgba(0, 0, 0, .6);
+}
+
+.nav .nav-tab {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.nav-tab ul {
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-tab li {
+    float: left;
+    width: 100px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.current {
+    color: #fa2c1d;
+    border-bottom: 1px solid red;
+}
+
+/*菜单*/
+.menu {
+    width: 100%;
+    height: auto;
+
+}
+
+/*采集 菜单*/
+/*采集菜单子导航*/
+.menu-array {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.menu-subnav {
+    width: 100%;
+    height: 135px;
+    background-color: #dddddd;
+}
+
+.menu-subnav ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-subnav ul li {
+    width: 182px;
+    float: left;
+    margin: 20px 22px 20px 0;
+    /*background-color: red;*/
+}
+
+.menu-subnav li:last-child {
+    margin-right: 0;
+}
+
+.menu-subnav li a img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+/*采集菜单子内容*/
+.menu-main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.menu-main-box {
+    width: 182px;
+    float: left;
+    box-shadow: 1px 1px 1px 1px #dddddd;
+    border-radius: 3px;
+
+    /*position: relative;*/
+}
+
+.menu-main-box .pic {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.menu-main-box .pic img {
+    width: 100%;
+}
+
+.menu-main-box:nth-child(5n) {
+    margin-right: 0;
+}
+
+.menu-main-box .pic .mask {
+    background-color: rgba(255, 255, 255, .1);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+.menu-main-box .pic .mask button {
+    background-color: #E53E49;
+    width: 32px;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.menu-main-box .pic .mask span {
+    background: url("../images/action_icons12.png") no-repeat -14px 6px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+.menu-main-box p {
+    margin: 5px;
+    font-size: 9px;
+}
+
+/*!*画板菜单*!*/
+.menu-plate {
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: coral;
+
+    display: none;
+}
+
+/*!*用户菜单*!*/
+.menu-user {
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: forestgreen;
+
+    display: none;
+}
+
+/*返回顶部快捷键*/
+.back-top {
+    width: 40px;
+    height: 40px;
+    background: url("../images/iconsprite_btbar.png") no-repeat 8px 8px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+
+    display: none;
+}
+
+.back-top:hover{
+    background-color: rgba(0,0,0,.3);
+}
+/*登录面板*/
+.login {
+    background-color: rgba(0, 0, 0, .5);
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    margin-top: -496px;
+    display: none;
+}
+
+.login-in {
+    width: 420px;
+    height: 320px;
+    background-color: white;
+    border-radius: 5px;
+
+    margin-top: -160px;
+    margin-left: -210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.login-logo {
+    background: url("../images/huaban_logo.png") no-repeat;
+    width: 100%;
+    height: 28px;
+    margin: 25px 160px 10px 160px;
+}
+
+.login-title {
+    width: 100%;
+    height: 28px;
+    /*background-color: red;*/
+    text-align: center;
+
+    position: relative;
+}
+
+.login-title span:nth-child(1) {
+    width: 50px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+
+    position: absolute;
+    left: 80px;
+    top: 14px;
+}
+
+.login-title span:nth-child(2) {
+    line-height: 28px;
+    color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+}
+
+.login-title span:nth-child(3) {
+    width: 50px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+
+    position: absolute;
+    right: 80px;
+    top: 14px;
+}
+
+.logo-img {
+    width: 100%;
+    height: 60px;
+    /*background-color: red;*/
+}
+
+.logo-img li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logo-img li:nth-child(1) {
+    background: url("../images/login_icons_tiny.svg") no-repeat 0 0;
+    margin-left: 76px;
+    margin-top: 6px;
+}
+
+.logo-img li:nth-child(2) {
+    background: url("../images/login_icons_tiny.svg") no-repeat -80px 0;
+}
+
+.logo-img li:nth-child(3) {
+    background: url("../images/login_icons_tiny.svg") no-repeat -160px 0;
+}
+
+.logo-img li:nth-child(4) {
+    background: url("../images/login_icons_tiny.svg") no-repeat -240px 0;
+}
+
+.logo-img li:nth-child(5) {
+    background: url("../images/login_icons_tiny.svg") no-repeat -320px 0;
+}
+
+.login-txt {
+    width: 100%;
+    height: 28px;
+
+    text-align: center;
+    position: relative;
+}
+
+.login-txt span:nth-child(1) {
+    width: 50px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+
+    position: absolute;
+    left: 80px;
+    top: 14px;
+}
+
+.login-txt span:nth-child(2) {
+    line-height: 28px;
+    color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+}
+
+.login-txt span:nth-child(3) {
+    width: 50px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+
+    position: absolute;
+    right: 80px;
+    top: 14px;
+}
+
+.login-form input:nth-child(1) {
+    width: 60%;
+    height: 28px;
+    margin: 2px 80px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.login-form input:nth-child(2) {
+    width: 60%;
+    height: 28px;
+    margin: 4px 80px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-form input:nth-child(3) {
+    width: 60%;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 4px 80px;
+    background-color: #C90000;
+    color: white;
+    border-radius: 2px;
+
+}
+
+.login-other {
+    text-align: center;
+    font-size: 13px;
+}
+
+.login-other span:nth-child(1) a {
+    color: #E53E49;
+    text-decoration: none;
+}
+
+.login-other span:nth-child(3) a {
+    color: #E53E49;
+    text-decoration: none;
+}
+
+.login-off {
+    width: 30px;
+    height: 30px;
+    background: url("../images/msg_close.png") no-repeat 5px 5px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
