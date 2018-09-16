@@ -8,23 +8,20 @@
 html body {
     width: 100%;
     height: 100%;
-    margin: 0 auto;
 }
 
 .content {
-    width: 100%;
+    width: 1263px;
     height: 100%;
-    padding-top: 48px;
     margin: 0 auto;
-
-    position: relative;
+    text-align: center;
+    padding-top: 48px;
 }
 
 /*头部*/
 .header {
     width: 100%;
     height: 48px;
-    margin: 0 auto;
     background-color: white;
 
     /*基于页面定位*/
@@ -35,7 +32,7 @@ html body {
 }
 
 .top-nav {
-    width: 80%;
+    width: 1010px;
     height: 100%;
     margin: 0 auto;
 }
@@ -298,7 +295,7 @@ html body {
 }
 
 .top-login-nav {
-    width: 80%;
+    width: 1010px;
     height: 64px;
     margin: 0 auto;
     color: #fff;
